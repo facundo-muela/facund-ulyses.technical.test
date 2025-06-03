@@ -10,12 +10,8 @@ import com.septeo.ulyses.technical.test.LoggingInterceptor;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
-	private final LoggingInterceptor loggingInterceptor;
-	
 	@Autowired
-	public WebConfig(LoggingInterceptor loggingInterceptor) {
-		this.loggingInterceptor = loggingInterceptor;
-	}
+	private LoggingInterceptor loggingInterceptor;
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
