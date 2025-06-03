@@ -45,6 +45,7 @@ This repository contains a Spring Boot application with the following structure:
       - Processing time (in milliseconds)
 
 5. **Implement a caching system for the GET endpoints of Brand**
+   *NO REALIZADO: No tengo el conocimiento para realizar este apartado*
    - Check if the data exists in the cache and has not expired.
    - If it does not exist or has expired, call the supplier.
    - Update the cache with the new value.
